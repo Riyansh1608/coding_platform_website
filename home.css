@@ -1,0 +1,128 @@
+*{
+padding:0;
+margin:0;
+}
+body{
+background-image:url(3.jpeg);
+background-repeat:no-repeat;
+background-size:cover;
+  background-attachment: fixed;
+width:100%;
+height:100%;
+background-position:center;
+box-sizing:border-box;
+font-family:sans-serif;
+}
+.menubar
+{
+background:dodgerblue;
+text-align:center;
+}
+.menubar ul{
+display:inline-flex;
+list-style:none;
+color:#fff;
+}
+
+.menubar ul li
+{
+width:120px;
+margin:15px;
+padding:15px;
+color:white;
+}
+.menubar ul li a
+{
+text-decoration:none;
+color:white;
+
+}
+.active,.menubar ul li:hover
+{
+background:c
+border-radius:3px;
+}
+.sider
+{
+color:black;
+background:rgb(200, 218, 255);
+width:12%;
+height:auto;
+padding:20px 20px 20px 50px;
+margin:2px 6px 10px 1px;
+border-right:4px solid dodgerblue;
+box-shadow:5px 5px 6px blue;
+}
+
+
+.row
+{
+margin:40px 20px 20px 180px;
+display:flex;
+}
+
+.column {
+  flex:33.33%;
+  padding: 5px;
+
+}
+.column a img
+{
+
+width:200px;
+height:200px;
+
+}
+
+
+.form
+{
+  width: 800px;
+  height:220px;
+  border: 5px solid white;
+  padding: 50px;
+  margin: 200px 200px 200px 200px;
+background-color:black;
+color:white;
+}
+
+.devadd
+{
+text-align:center;
+margin:10px;
+border:5px solid white;
+padding:40px;
+background-color:black;
+color:white;
+font-size:30px;
+}
+
+.tuto
+{
+text-align:center;
+margin:10px;
+border:5px solid white;
+padding:40px;
+background-color:black;
+color:white;
+font-size:30px;
+text-shadow:2px 2px dodgerblue;
+}
+.cn
+{
+text-color:white;
+background-image:url("cn.JPEG");
+text-align:center;
+margin:300px 30px 100px 30px;
+border:5px solid dodgerblue;;
+padding:300px 30px 50px 30px;
+color:white;
+font-size:50px;
+text-shadow:2px 2px dodgerblue;
+height:300px;
+
+}
+.cn a {
+  text-decoration: none;
+color: white;
+}
