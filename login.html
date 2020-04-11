@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>login and registration form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hero">
+<div class="form-box"> 
+<div class="button-box">
+
+<button type="button" class="toggle-btn" onclick="login()">log In</button>
+<button type="button" class="toggle-btn" onclick="register()">Register</button>
+<div id="btn"></div>
+</div>
+<div class="social-icons">
+<img src="gp.png">
+<img src="fb.png">
+<img src="tw.png">
+</div>
+<form id="login" class="input-group">
+<input type="email" class="input-field" placeholder="Email Id" required><br>
+<input type="password" class="input-field" placeholder="Enter Password" required><br><br>
+<input type="checkbox" class="chech-box"><span>Remember Me</span>
+<button type="submit" class="submit-btn">Login</button>
+</form>
+<form id="register" class="input-group">
+<input type="text" class="input-field" placeholder="Full Name" required><br>
+<input type="email" class="input-field" placeholder="Email Id" required><br>
+<input type="password" class="input-field" placeholder="Enter Password" required><br><br>
+<input type="checkbox" class="chech-box" required><span>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</span><br>
+<button type="submit" class="submit-btn">Sign Up</button>
+</form>
+
+
+</div>
+</div>
+
+<script>
+
+var x=document.getElementById("login");
+var y=document.getElementById("register");
+
+function register(){
+x.style.left= "-400px";
+y.style.left= "50px";
+z.style.left= "110px";
+}
+function login(){
+x.style.left= "50px";
+y.style.left= "450px";
+z.style.left= "0px";
+}
+</script>
+</body>
+</html>
