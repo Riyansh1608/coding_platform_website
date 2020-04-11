@@ -21,8 +21,7 @@ text-align:center;
 .menubar ul{
 display:inline-flex;
 list-style:none;
-color:#fff;
-}
+  color:#fff;}
 
 .menubar ul li
 {
